@@ -4,4 +4,28 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-	staging area is a temporary place for files to be committed before they are 	 committed. It allows for flexibility
+	staging area is a temporary place for files to be committed before they are
+	committed. It allows for flexibility
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	compare files using diff
+
+What are some situations when branches would e helpful in keeping your history organized? How would branches help?
+
+	they allow for alternatives without changing main code
+
+How do diagrams help you visualize the branch structure?
+
+	it simplifies branch structure
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	merging the two branches together merges the codes from the two branches, and we 
+ 	represent them the way we do because its easier to see
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	it makes the process quick and easy but when there’s a function changed by two 
+	people, there’s an error which only the user can fix.
+
